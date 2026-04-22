@@ -4,7 +4,7 @@ This project was created in React as part of training course project on Udemy "T
 
 ## description
 
-this App is about a Quiz about React test, initially consist in 15 questions that receives from a tiny server, its shows the questions, when choose an option it shows the correct answer over your selected answer, also the number of the current question over the total questions and the acumulated points over the toal maximun point for the test, also a timer showing the time remaining, its running out will show the resume test with your score, also you can see the latest high score, and you can retake the test
+this App is about a Quiz about React test, initially consist in 15 questions that receives from a tiny server, its shows the questions, when choose an option it shows the correct answer over your selected answer, also the number of the current question over the total questions and the acumulated points over the toal maximun point for the test, also a timer showing the time remaining, if the time remaining finish it will show the resume test with your score, also you can see the latest high score, and you can retake the test
 
 ### `key features implemented`
 
