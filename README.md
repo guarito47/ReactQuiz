@@ -1,4 +1,4 @@
-# React App Popcorn Movie
+# React Quiz App 
 
 This project was created in React as part of training course project on Udemy "The Ultimate React Course 2025: React, Next.js, Redux & More" as the best rated course about React by Jonas Schmedtmann 
 
