@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# React App Popcorn Movie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created in React as part of training course project on Udemy "The Ultimate React Course 2025: React, Next.js, Redux & More" as the best rated course about React by Jonas Schmedtmann 
 
-## Available Scripts
+## description
 
-In the project directory, you can run:
+this App is about a Quiz about React test, initially consist in 15 questions that receives from a tiny server, its shows the questions, when choose an option it shows the correct answer over your selected answer, also the number of the current question over the total questions and the acumulated points over the toal maximun point for the test, also a timer showing the time remaining, its running out will show the resume test with your score, also you can see the latest high score, and you can retake the test
 
-### `npm start`
+### `key features implemented`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+component composition, 
+passing elements as props, 
+reusable components, 
+handling over events, 
+props as a componmet, 
+useEffects, cleanup functions, 
+useReducer as the main core to drive the dispach function
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Live demo`
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Live App is deployed on Render.\
+Open [https://reactquiz-pzld.onrender.com/](https://reactquiz-pzld.onrender.com/) to view it in your browser.
