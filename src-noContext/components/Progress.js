@@ -1,13 +1,4 @@
-import { useQuiz } from "../contexts/quizContext";
-
-function Progress() {
-  const { index, questions, points, answer } = useQuiz();
-  const numQuestions = questions.length;
-
-  const maxPoints = questions.reduce(
-    (sum, question) => sum + question.points,
-    0,
-  );
+function Progress({ index, numQuestions, points, maxPoints, answer }) {
   return (
     <header className="progress">
       {/* IMPORTANT TRICK: to move 1 step forward when click an answer to see their step done before click next 

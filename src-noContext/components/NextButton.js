@@ -1,8 +1,4 @@
-import { useQuiz } from "../contexts/quizContext";
-
-function NextButton() {
-  const { dispatch, answer, index, questions } = useQuiz();
-  const maxQuestion = questions.length;
+function NextButton({ dispatch, answer, index, maxQuestion }) {
   if (answer === null) return null; //because its a component need we need to specify null
   if (index < maxQuestion - 1)
     return (
