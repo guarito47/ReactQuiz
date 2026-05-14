@@ -15,6 +15,7 @@ handling over events,
 props as a componmet, 
 useEffects, cleanup functions, 
 useReducer as the main core to drive the dispach function
+useContext API, useProviders to avoid prop drilling and clean components
 
 ### `Live demo`
 
